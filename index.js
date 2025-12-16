@@ -4,7 +4,7 @@ const { OpenAI } = require('openai');
 const app = express();
 const PORT = process.env.PORT || 3000; 
 
-const YOUR_HARDCODED_API_KEY = "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";
+const YOUR_HARDCODED_API_KEY = "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";
 
 const openai = new OpenAI({ apiKey: YOUR_HARDCODED_API_KEY }); 
 
