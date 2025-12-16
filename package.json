@@ -1,0 +1,23 @@
+{
+  "name": "openai-chat-api-for-render",
+  "version": "1.0.0",
+  "description": "A simple Node.js Express API to access OpenAI's chat completions using a hardcoded key, designed for quick deployment on platforms like Render.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "api",
+    "express",
+    "render"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "openai": "^4.20.1"
+  }
+}
